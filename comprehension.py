@@ -47,6 +47,42 @@
 
 
 # 7.wap to check how many words are present in the given sentence
-s="hello world sentence"
-b=[s.count(i) for i in s if "a"<=i<="z" or "A"<=i<="Z"]
-print(b)
+# s="hello world sentence"
+# b=[s.count(i) for i in s if "a"<=i<="z" or "A"<=i<="Z"]
+# print(b)
+
+#----------------------------------------------------28/04/2025---------------------------------
+#1.wap to check even numbers in a list and return a list containing only even numbers
+# l=[2,32,1,52,31,24,56,75]
+# a=[i for i in l if i%2==0]
+# print(a)
+
+
+# 2.wap to check elements inside the collection are even or odd,if it is even
+# make it square of that numbers,if it is odd make it as cube of that numbers
+# l=[2,3,5,1,7,2,3]
+# a=[i**2 if  i%2==0 else i**3 for i in l]
+# print(a)
+
+# 3.wap to return a list containing 10 multiples of 2
+
+
+#--------------------------------------------------------SET COMPREHENSION---------------------
+# v=['vinay','kumar','bhardwaj']
+# a={c for b in v for c in b if c in 'aeiou'}
+# print(a)
+
+
+
+#3.wap to return a list containing 10 multiples of 2
+# a=[i*num for i in range(1,11) ]
+
+# l=[2,3,4,2,5,6,2,3]
+# a={i for i in l }
+# print(a)
+
+#2.wap to take two lists and return a set by adding elements present same index
+# l1=[2,3,4,5,6,7,8,9]
+# l2=[5,6,7,8,9,1,2,3]
+# a={i+j for i ,j  in zip(l1,l2) }
+# print(a)
